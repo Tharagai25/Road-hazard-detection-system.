@@ -1,0 +1,40 @@
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets
+datasets/
+dataset/
+RDD2022/
+pothole/
+*.zip
+*.tar.gz
+
+# YOLO / Weights & Outputs
+models/*.pt
+!models/.gitkeep
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Streamlit & Temp files
+.streamlit/
+temp/
+*.mp4
+*.avi
+*.mov
+*.png
+*.jpg
+*.jpeg
+
+# System & IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
